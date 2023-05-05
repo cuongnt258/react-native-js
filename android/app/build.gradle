@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.cuongnt258.rn"
+    namespace "com.gorilladesk.app"
     defaultConfig {
-        applicationId "com.cuongnt258.rn"
+        applicationId "com.gorilladesk.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
