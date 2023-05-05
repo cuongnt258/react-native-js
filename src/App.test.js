@@ -6,9 +6,11 @@ import { Provider } from 'react-redux';
 import { store } from './store';
 import { render } from '@testing-library/react-native';
 it('App renders correctly', () => {
-    const component = (<Provider store={store}>
+  const component = (
+    <Provider store={store}>
       <App />
-    </Provider>);
-    render(component);
-    expect(component).toBeDefined();
+    </Provider>
+  );
+  render(component);
+  expect(component).toBeDefined();
 });

@@ -13,72 +13,96 @@
 		"moduleResolution": "node",
 		"baseUrl": "./src",
 		"paths": {
+			"@common": [
+				"app/common"
+			],
+			"@common/*": [
+				"app/common/*"
+			],
+			"@components": [
+				"app/components"
+			],
+			"@components/*": [
+				"app/components/*"
+			],
+			"@config": [
+				"app/config"
+			],
+			"@config/*": [
+				"app/config/*"
+			],
+			"@const": [
+				"app/constants"
+			],
+			"@const/*": [
+				"app/constants/*"
+			],
+			"@screens": [
+				"app/modules"
+			],
+			"@screens/*": [
+				"app/modules/*"
+			],
+			"@theme": [
+				"app/theme"
+			],
+			"@theme/*": [
+				"app/theme/*"
+			],
 			"@assets": [
 				"assets"
 			],
 			"@assets/*": [
 				"assets/*"
 			],
-			"@components": [
-				"components"
+			"@contexts": [
+				"core/contexts"
 			],
-			"@components/*": [
-				"components/*"
-			],
-			"@config": [
-				"config"
-			],
-			"@config/*": [
-				"config/*"
-			],
-			"@navigation": [
-				"navigation"
-			],
-			"@navigation/*": [
-				"navigation/*"
-			],
-			"@services": [
-				"services"
-			],
-			"@services/*": [
-				"services/*"
-			],
-			"@screens": [
-				"screens"
-			],
-			"@screens/*": [
-				"screens/*"
-			],
-			"@theme": [
-				"theme"
-			],
-			"@theme/*": [
-				"theme/*"
-			],
-			"@utils": [
-				"src/utils"
-			],
-			"@utils/*": [
-				"src/utils/*"
-			],
-			"@redux": [
-				"redux"
-			],
-			"@redux/*": [
-				"redux/*"
+			"@contexts/*": [
+				"core/contexts/*"
 			],
 			"@hooks": [
-				"hooks"
+				"core/hooks"
 			],
 			"@hooks/*": [
-				"hooks/*"
+				"core/hooks/*"
 			],
-			"@constants": [
-				"constants"
+			"@models": [
+				"core/models"
 			],
-			"@constants/*": [
-				"constants/*"
-			]
+			"@models/*": [
+				"core/models/*"
+			],
+			"@redux": [
+				"core/redux"
+			],
+			"@redux/*": [
+				"core/redux/*"
+			],
+			"@schemas": [
+				"core/schemas"
+			],
+			"@schemas/*": [
+				"core/schemas/*"
+			],
+			"@services": [
+				"core/services"
+			],
+			"@services/*": [
+				"core/services/*"
+			],
+			"@utils": [
+				"core/utils"
+			],
+			"@utils/*": [
+				"core/utils/*"
+			],
+			"@vendors": [
+				"core/vendors"
+			],
+			"@vendors/*": [
+				"core/vendors/*"
+			],
 		},
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,

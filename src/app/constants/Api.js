@@ -1,0 +1,15 @@
+export default {
+  API_V2: 'https://apiv2.gorilladesk.com',
+  OFFLINE_ENDPOINT: 'https://offline.gorilladesk.com',
+  API_ENDPOINT: 'https://rn.gorilladesk.com/',
+  CALENDAR_ENDPOINT: 'https://c312v8.gorilladesk.com',
+  SKETCH_ENDPOINT: 'https://s312v7.gorilladesk.com',
+  REALTIME_ENDPOINT: 'https://ws.gorilladesk.com',
+  GEOLOCATION_ENDPOINT: 'https://hook.gorilladesk.com',
+  ICON_URL: 'https://app.gorilladesk.com/images/icons/ico-',
+  PDF_ENDPOINT: 'https://export.gorilladesk.com',
+  DYNAMIC_LINK: 'https://fb.gd.fm',
+  REPORT_ERROR: 'http://hook.gdesk.io/error/rn',
+  CDN_DOMAIN: 'cloudfront.net/',
+  EXAMPLE_URL: 'https://jsonplaceholder.typicode.com',
+};
