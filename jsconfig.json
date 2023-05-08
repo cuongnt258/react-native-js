@@ -1,16 +1,10 @@
 {
 	"compilerOptions": {
-		"target": "esnext",
-		"module": "commonjs",
-		"lib": [
-			"es6"
-		],
-		"allowJs": true,
-		"jsx": "react-native",
-		"noEmit": true,
-		"isolatedModules": true,
-		"strict": true,
+		"checkJs": false,
+		"resolveJsonModule": true,
 		"moduleResolution": "node",
+		"target": "es2020",
+		"module": "es2015",
 		"baseUrl": "./src",
 		"paths": {
 			"@common": [
@@ -103,15 +97,24 @@
 			"@vendors/*": [
 				"core/vendors/*"
 			],
-		},
-		"allowSyntheticDefaultImports": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true
+		}
 	},
 	"exclude": [
+		"dist",
 		"node_modules",
-		"babel.config.js",
-		"metro.config.js",
-		"jest.config.js"
-	]
+		"build",
+		".vscode",
+		"coverage",
+		".npm",
+		".yarn"
+	],
+	"typeAcquisition": {
+		"enable": true,
+		"include": [
+			"react",
+			"react-dom",
+			"jest",
+			"testing-library__jest-dom"
+		]
+	}
 }
